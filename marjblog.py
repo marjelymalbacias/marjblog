@@ -12,7 +12,7 @@ col1, col2 = st.columns([3, 1])
 with col1:
     st.header("All About Marjely")
     name = st.text_input("Enter your full name", "Marjely Comparativo Malbacias")
-    bio = st.text_area("Write a short bio about yourself", 
+    bio = st.text_area("Write a bio about yourself", 
                        "Hello, everyone! I am from Albor, Libjo, Dinagat Islands and now living in barangay Washington, Surigao City in order to pursue my studies. I am a first year student, currently taking Bachelor of Science in Computer Engineering at Surigao del Norte State University.")
     birthday = st.text_input("Enter your birthday", "September 19, 2005")
     
