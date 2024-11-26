@@ -88,8 +88,8 @@ with col1:
     st.write(f"*Gender:* {gender}")
     
     st.subheader("Educational Attainment")
-    if education_selected:
-        for item in education_selected:
+if education_selected:
+    for item in education_selected:
             st.write(f"- {item}")
     else:
         st.write("No educational background selected.")
