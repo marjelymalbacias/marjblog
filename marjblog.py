@@ -1,14 +1,17 @@
 import streamlit as st
 
 # Title of the app
-st.title("Biography Generator")
+st.title("Biography of Marjely C. Malbacias")
 
-st.image('marje.jpg', caption= 'This is me', width=200)
+st.image('marje.jpg', caption= 'Hi everyone,I am Marjely! width=200)
 
 # Input fields
 st.sidebar.header("Enter Your Details")
 name = st.sidebar.text_input("Name", "")
 age = st.sidebar.number_input("Age", min_value=0, max_value=120, step=1)
+address = st.sidebar.text_input("Address", "")
+birthdate = st.sidebar.number_input("Birthdate", "")
+birthplace = st.sidebar.text_input("Birthplace", "")
 occupation = st.sidebar.text_input("Occupation", "")
 hobbies = st.sidebar.text_area("Hobbies (comma-separated)", "")
 goals = st.sidebar.text_area("Goals or Aspirations", "")
