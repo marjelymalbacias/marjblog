@@ -3,7 +3,7 @@ import streamlit as st
 # Title of the app
 st.title("Biography of Marjely C. Malbacias")
 
-st.image('marje.jpg', caption= 'Hi everyone,I am Marjely!, width=200)
+st.image('marje.jpg', caption= 'Hi everyone,I am Marjely!', width=200)
 
 # Input fields
 st.sidebar.header("Enter Your Details")
