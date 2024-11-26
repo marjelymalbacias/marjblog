@@ -75,15 +75,7 @@ with col1:
 # Editable Photo (in the second column)
 with col2:
     st.subheader("Photo")
-    st.write("You can upload a profile photo below:")
-    uploaded_photo = st.file_uploader("C:\Windows\Web\Wallpaper\ThemeC\img30.jpg", type=["jpg", "jpeg", "png"])
-
-    if uploaded_photo:
-        photo = Image.open(uploaded_photo)
-        st.image(photo, caption=f"{name}'s Photo", use_column_width=True)
-    else:
-        st.write("No photo uploaded.")
-
+    st.image('marje.jpg',width=200)
 # Display the User's Input as a Profile in two columns
 
 # Left column: User's info
@@ -115,8 +107,5 @@ with col1:
     st.write(hobbies)
 
 # Right column: Photo (positioned on the upper right)
-with col2:
-    if uploaded_photo:
-        st.image(photo, caption=f"{name}'s Photo", use_column_width=True)
-    else:
-        st.write("No photo uploaded.")
+
+
