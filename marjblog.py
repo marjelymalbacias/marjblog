@@ -13,7 +13,7 @@ with col1:
     st.header("About Me")
     name = st.text_input("Enter your full name", "Marjely Comparativo Malbacias")
     bio = st.text_area("Write a short bio about yourself", 
-                       "I am a first year student, currently taking Bachelor of Science in Computer Engineering at Surigao del Norte State University.")
+                       "Hello, everyone! I am from Albor, Libjo, Dinagat Islands and now living in barangay Washington, Surigao City in order to pursue my studies. I am a first year student, currently taking Bachelor of Science in Computer Engineering at Surigao del Norte State University.")
     birthday = st.text_input("Enter your birthday", "September 19, 2005")
     
     # Add age input, automatically calculate age based on birthday
