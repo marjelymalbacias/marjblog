@@ -3,7 +3,7 @@ from PIL import Image
 from datetime import datetime
 
 # App Title
-st.title("Editable Biography App")
+st.title("Get to know me :sunflower:")
 
 # Create two columns for layout
 col1, col2 = st.columns([3, 1])
