@@ -56,22 +56,21 @@ with col1:
     
     # Editable Parental Information
     st.header("Parental Information")
-    father_name = st.text_input("Father's Name", "Mr. Noel P. Bernadez")
-    father_occupation = st.text_input("Father's Occupation", "Tricycle Driver")
-    mother_name = st.text_input("Mother's Name", "Mrs. Wennylyn B. Bernadez")
-    mother_occupation = st.text_input("Mother's Occupation", "Housewife")
+    father_name = st.text_input("Father's Name", "Mr. Jeyrel A. Malbacias")
+    father_occupation = st.text_input("Father's Occupation", "Self Employed")
+    mother_name = st.text_input("Mother's Name", "Mrs. Maruja C. Malbacias")
+    mother_occupation = st.text_input("Mother's Occupation", "Self Employed")
 
     # Editable Contact Information
     st.header("Contact Information")
-    email = st.text_input("Email", "angelicabernadez322@gmail.com")
-    phone = st.text_input("Phone", "09857880196")
-    facebook = st.text_input("Facebook Profile URL", "https://web.facebook.com/me/")
+    email = st.text_input("Email", "jelymalbacias@gmail.com")
+    phone = st.text_input("Phone", "09486732410")
 
 
     # Editable Hobbies/Interests
     st.header("Hobbies & Interests")
     hobbies = st.text_area("List your hobbies or interests", 
-                           "- Playing Badminton and Watching Korean Drama")
+                           "- Swimming and Watching Korean Dramas")
 # Editable Photo (in the second column)
 with col2:
     st.subheader("Photo")
