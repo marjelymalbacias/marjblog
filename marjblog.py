@@ -3,6 +3,8 @@ import streamlit as st
 # Title of the app
 st.title("Biography Generator")
 
+st.image('marje.jpg', caption= 'This is me', width=200)
+
 # Input fields
 st.sidebar.header("Enter Your Details")
 name = st.sidebar.text_input("Name", "")
