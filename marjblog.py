@@ -11,10 +11,8 @@ name = st.sidebar.text_input("Name", "")
 age = st.sidebar.number_input("Age", min_value=0, max_value=120, step=1)
 address = st.sidebar.text_input("Address", "")
 birthdate = st.sidebar.number_input("Birthdate", "")
-birthplace = st.sidebar.text_input("Birthplace", "")
 occupation = st.sidebar.text_input("Occupation", "")
-hobbies = st.sidebar.text_area("Hobbies (comma-separated)", "")
-goals = st.sidebar.text_area("Goals or Aspirations", "")
+hobbies & goals = st.sidebar.text_area("Hobbies & Goals")
 
 # Display biography
 if st.sidebar.button("Generate Biography"):
