@@ -100,7 +100,6 @@ if education_selected:
 
     st.subheader("Contact Information")
     st.write(f"- Email: {email}  \n- Phone: {phone}")
-    st.write(f"- Facebook: [Profile]({facebook})")
 
     st.subheader("Hobbies & Interests")
     st.write(hobbies)
